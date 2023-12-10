@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospify - Control de historial clínico</title>
+</head>
+<body>
+    <header>
+        <h1>Control de historial clínico</h1>
+    </header>
+    <form action="">
+        <h3>Paciente:</h3>
+        <label for="id">Cedula</label>
+        <input type="text" name="id" id="id">
+        <label for="age">Edad</label>
+        <input type="number" name="age" id="age">
+        <label for="sex">Sexo</label>
+        <select name="sex" id="sex">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="otro">Otro</option>
+        </select>
+        <label for="birth">Fecha de nacimiento</label>
+        <input type="date" name="birth" id="birth">
+        <label for="fname">Nombres</label>
+        <input type="text" name="fname" id="fname">
+        <label for="lname">Apellidos</label>
+        <input type="text" name="lname" id="lname">
+        <label for="pnumber">Teléfono</label>
+        <input type="tel" name="pnumber" id="pnumber">
+        <hr/><br/>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <form action="">
+        <h3>Consulta:</h3>
+        <p>Doctor:</p>
+        <label for="dname">Nombre</label>
+        <input type="text" name="dname" id="dname">
+        <label for="dlname">Apellido</label>
+        <input type="text" name="dlname" id="dlname">
+        <label for="dspecialist">Especialidad</label>
+        <input type="text" name="dspecialist" id="dspecialist">
+        <p>Datos consulta</p>
+        <label for="Cdate">Fecha</label>
+        <input type="date" name="Cdate" id="Cdate"/>
+        <br/><hr/>
+        <label for="reason">Motivo</label>
+        <textarea name="reason" rows="10" cols="30"></textarea>
+        <hr/><br/>
+        <label for="diagnostic">Diagnostico</label>
+        <textarea name="diagnostic" cols="30" rows="10"></textarea>
+        <hr/><br/>
+        <label for="notes">Observaciones(ojo pelao)</label>
+        <textarea name="notes" rows="10" cols="30"></textarea>
+        <hr/><br/>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
